@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/sort.dir/数据结构/sort_test.cpp.o -o sort 

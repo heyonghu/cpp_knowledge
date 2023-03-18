@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_test-Debug-dfa4f3f5fa5db9491f82.json",
+					"name" : "cpp_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sort-Debug-c4b3145ee69297990006.json",
+					"name" : "sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test01-Debug-bcbe5c188fdb1085e412.json",
+					"name" : "test01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test02-Debug-f750105ab7015e19fd85.json",
+					"name" : "test02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test03-Debug-11aef8ea5f5239721f44.json",
+					"name" : "test03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test04-Debug-f1b8a9b6313fd4f06235.json",
+					"name" : "test04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test05-Debug-2a245d0b451fe1e48f22.json",
+					"name" : "test05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tree-Debug-70c83ee3c4a3016e4d62.json",
+					"name" : "tree",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/data/data_yonghu/cpp_enev/cmake-build-debug",
+		"source" : "/data/data_yonghu/cpp_enev"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

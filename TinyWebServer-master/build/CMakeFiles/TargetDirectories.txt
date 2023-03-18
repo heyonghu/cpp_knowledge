@@ -1,0 +1,3 @@
+/data/data_yonghu/code_python/cpp_test/TinyWebServer-master/build/CMakeFiles/server.dir
+/data/data_yonghu/code_python/cpp_test/TinyWebServer-master/build/CMakeFiles/edit_cache.dir
+/data/data_yonghu/code_python/cpp_test/TinyWebServer-master/build/CMakeFiles/rebuild_cache.dir

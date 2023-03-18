@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp_test">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/cpp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_test"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp_test/fast">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/cpp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_test/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test01">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/test01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 test01"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test01/fast">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/test01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 test01/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test02">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/test02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 test02"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test02/fast">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/test02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 test02/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test03">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/test03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 test03"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test03/fast">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/test03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 test03/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test04">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/test04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 test04"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test04/fast">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/test04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 test04/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test05">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/test05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 test05"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test05/fast">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/test05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 test05/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sort">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 sort"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sort/fast">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 sort/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tree/fast">
+				<Option output="/data/data_yonghu/cpp_enev/cmake-build-debug/tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 tree/fast"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/data/data_yonghu/cpp_enev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j48 -f &quot;/data/data_yonghu/cpp_enev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/data/data_yonghu/cpp_enev/main.cpp">
+			<Option target="cpp_test"/>
+		</Unit>
+		<Unit filename="/data/data_yonghu/cpp_enev/test01.cpp">
+			<Option target="test01"/>
+		</Unit>
+		<Unit filename="/data/data_yonghu/cpp_enev/test02.cpp">
+			<Option target="test02"/>
+		</Unit>
+		<Unit filename="/data/data_yonghu/cpp_enev/test03.cpp">
+			<Option target="test03"/>
+		</Unit>
+		<Unit filename="/data/data_yonghu/cpp_enev/test04.cpp">
+			<Option target="test04"/>
+		</Unit>
+		<Unit filename="/data/data_yonghu/cpp_enev/test05.cpp">
+			<Option target="test05"/>
+		</Unit>
+		<Unit filename="/data/data_yonghu/cpp_enev/数据结构/sort_test.cpp">
+			<Option target="sort"/>
+		</Unit>
+		<Unit filename="/data/data_yonghu/cpp_enev/数据结构/tree_test.cpp">
+			<Option target="tree"/>
+		</Unit>
+		<Unit filename="/data/data_yonghu/cpp_enev/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

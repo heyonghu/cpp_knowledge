@@ -1,0 +1,5 @@
+aux_source_directory(. DIR_LIB_SRCS)
+set(CMAKE_REQUIRED_LIBRARIES pthread)
+find_package(Threads REQUIRED)
+add_library(log ${DIR_LIB_SRCS})
+target_link_libraries(log PUBLIC Threads::Threads)
