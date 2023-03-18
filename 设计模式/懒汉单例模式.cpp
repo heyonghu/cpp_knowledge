@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// 单例模式
+// 懒汉单例模式
 class Singleton {
 public:
     static Singleton* getInstance() {

@@ -5,14 +5,11 @@
 
 using namespace std;
 
-// 单例模式
+// 饿汉单例模式
 class Singleton {
 public:
     static Singleton* getInstance() {
-        if (instance == nullptr) {
-            instance = new Singleton();
-        }
-        return instance;
+        return &instance;
     }
 
     // 禁止拷贝构造函数和赋值运算符
@@ -22,10 +19,10 @@ public:
 private:
     Singleton() {}
 
-    static Singleton* instance;
+    static Singleton instance;
 };
 
-Singleton* Singleton::instance = nullptr; // 类外初始化
+Singleton Singleton::instance; // 类外初始化
 
 int main() {
     Singleton* s1 = Singleton::getInstance();
