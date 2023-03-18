@@ -21,6 +21,15 @@ public:
 
 Singleton* Singleton::instance = nullptr;
 
+// 懒汉单例
+
+
+
+// 饿汉单例
+
+
+
+
 int main(){
 
     return 0;
