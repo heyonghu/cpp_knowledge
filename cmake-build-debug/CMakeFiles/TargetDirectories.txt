@@ -6,5 +6,9 @@
 /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles/test05.dir
 /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles/sort.dir
 /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles/tree.dir
+/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles/hungry_singleton.dir
+/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles/lazy_singleton.dir
+/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles/Singleton.dir
+/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles/factory_model.dir
 /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles/edit_cache.dir
 /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles/rebuild_cache.dir

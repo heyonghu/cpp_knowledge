@@ -54,4 +54,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test05.dir/DependInfo.cmake"
   "CMakeFiles/sort.dir/DependInfo.cmake"
   "CMakeFiles/tree.dir/DependInfo.cmake"
+  "CMakeFiles/hungry_singleton.dir/DependInfo.cmake"
+  "CMakeFiles/lazy_singleton.dir/DependInfo.cmake"
+  "CMakeFiles/Singleton.dir/DependInfo.cmake"
+  "CMakeFiles/factory_model.dir/DependInfo.cmake"
   )

@@ -220,6 +220,58 @@ tree/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
 .PHONY : tree/fast
 
+#=============================================================================
+# Target rules for targets named hungry_singleton
+
+# Build rule for target.
+hungry_singleton: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hungry_singleton
+.PHONY : hungry_singleton
+
+# fast build rule for target.
+hungry_singleton/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hungry_singleton.dir/build.make CMakeFiles/hungry_singleton.dir/build
+.PHONY : hungry_singleton/fast
+
+#=============================================================================
+# Target rules for targets named lazy_singleton
+
+# Build rule for target.
+lazy_singleton: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lazy_singleton
+.PHONY : lazy_singleton
+
+# fast build rule for target.
+lazy_singleton/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lazy_singleton.dir/build.make CMakeFiles/lazy_singleton.dir/build
+.PHONY : lazy_singleton/fast
+
+#=============================================================================
+# Target rules for targets named Singleton
+
+# Build rule for target.
+Singleton: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Singleton
+.PHONY : Singleton
+
+# fast build rule for target.
+Singleton/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/build
+.PHONY : Singleton/fast
+
+#=============================================================================
+# Target rules for targets named factory_model
+
+# Build rule for target.
+factory_model: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 factory_model
+.PHONY : factory_model
+
+# fast build rule for target.
+factory_model/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/factory_model.dir/build.make CMakeFiles/factory_model.dir/build
+.PHONY : factory_model/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -412,6 +464,102 @@ test05.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/数据结构/tree_test.cpp.s
 .PHONY : 数据结构/tree_test.cpp.s
 
+设计模式/Singleton.o: 设计模式/Singleton.cpp.o
+.PHONY : 设计模式/Singleton.o
+
+# target to build an object file
+设计模式/Singleton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/设计模式/Singleton.cpp.o
+.PHONY : 设计模式/Singleton.cpp.o
+
+设计模式/Singleton.i: 设计模式/Singleton.cpp.i
+.PHONY : 设计模式/Singleton.i
+
+# target to preprocess a source file
+设计模式/Singleton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/设计模式/Singleton.cpp.i
+.PHONY : 设计模式/Singleton.cpp.i
+
+设计模式/Singleton.s: 设计模式/Singleton.cpp.s
+.PHONY : 设计模式/Singleton.s
+
+# target to generate assembly for a file
+设计模式/Singleton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/设计模式/Singleton.cpp.s
+.PHONY : 设计模式/Singleton.cpp.s
+
+设计模式/factory_model.o: 设计模式/factory_model.cpp.o
+.PHONY : 设计模式/factory_model.o
+
+# target to build an object file
+设计模式/factory_model.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/factory_model.dir/build.make CMakeFiles/factory_model.dir/设计模式/factory_model.cpp.o
+.PHONY : 设计模式/factory_model.cpp.o
+
+设计模式/factory_model.i: 设计模式/factory_model.cpp.i
+.PHONY : 设计模式/factory_model.i
+
+# target to preprocess a source file
+设计模式/factory_model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/factory_model.dir/build.make CMakeFiles/factory_model.dir/设计模式/factory_model.cpp.i
+.PHONY : 设计模式/factory_model.cpp.i
+
+设计模式/factory_model.s: 设计模式/factory_model.cpp.s
+.PHONY : 设计模式/factory_model.s
+
+# target to generate assembly for a file
+设计模式/factory_model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/factory_model.dir/build.make CMakeFiles/factory_model.dir/设计模式/factory_model.cpp.s
+.PHONY : 设计模式/factory_model.cpp.s
+
+设计模式/hungry_singleton.o: 设计模式/hungry_singleton.cpp.o
+.PHONY : 设计模式/hungry_singleton.o
+
+# target to build an object file
+设计模式/hungry_singleton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hungry_singleton.dir/build.make CMakeFiles/hungry_singleton.dir/设计模式/hungry_singleton.cpp.o
+.PHONY : 设计模式/hungry_singleton.cpp.o
+
+设计模式/hungry_singleton.i: 设计模式/hungry_singleton.cpp.i
+.PHONY : 设计模式/hungry_singleton.i
+
+# target to preprocess a source file
+设计模式/hungry_singleton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hungry_singleton.dir/build.make CMakeFiles/hungry_singleton.dir/设计模式/hungry_singleton.cpp.i
+.PHONY : 设计模式/hungry_singleton.cpp.i
+
+设计模式/hungry_singleton.s: 设计模式/hungry_singleton.cpp.s
+.PHONY : 设计模式/hungry_singleton.s
+
+# target to generate assembly for a file
+设计模式/hungry_singleton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hungry_singleton.dir/build.make CMakeFiles/hungry_singleton.dir/设计模式/hungry_singleton.cpp.s
+.PHONY : 设计模式/hungry_singleton.cpp.s
+
+设计模式/lazy_singleton.o: 设计模式/lazy_singleton.cpp.o
+.PHONY : 设计模式/lazy_singleton.o
+
+# target to build an object file
+设计模式/lazy_singleton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lazy_singleton.dir/build.make CMakeFiles/lazy_singleton.dir/设计模式/lazy_singleton.cpp.o
+.PHONY : 设计模式/lazy_singleton.cpp.o
+
+设计模式/lazy_singleton.i: 设计模式/lazy_singleton.cpp.i
+.PHONY : 设计模式/lazy_singleton.i
+
+# target to preprocess a source file
+设计模式/lazy_singleton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lazy_singleton.dir/build.make CMakeFiles/lazy_singleton.dir/设计模式/lazy_singleton.cpp.i
+.PHONY : 设计模式/lazy_singleton.cpp.i
+
+设计模式/lazy_singleton.s: 设计模式/lazy_singleton.cpp.s
+.PHONY : 设计模式/lazy_singleton.s
+
+# target to generate assembly for a file
+设计模式/lazy_singleton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lazy_singleton.dir/build.make CMakeFiles/lazy_singleton.dir/设计模式/lazy_singleton.cpp.s
+.PHONY : 设计模式/lazy_singleton.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -420,7 +568,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Singleton"
 	@echo "... cpp_test"
+	@echo "... factory_model"
+	@echo "... hungry_singleton"
+	@echo "... lazy_singleton"
 	@echo "... sort"
 	@echo "... test01"
 	@echo "... test02"
@@ -452,6 +604,18 @@ help:
 	@echo "... 数据结构/tree_test.o"
 	@echo "... 数据结构/tree_test.i"
 	@echo "... 数据结构/tree_test.s"
+	@echo "... 设计模式/Singleton.o"
+	@echo "... 设计模式/Singleton.i"
+	@echo "... 设计模式/Singleton.s"
+	@echo "... 设计模式/factory_model.o"
+	@echo "... 设计模式/factory_model.i"
+	@echo "... 设计模式/factory_model.s"
+	@echo "... 设计模式/hungry_singleton.o"
+	@echo "... 设计模式/hungry_singleton.i"
+	@echo "... 设计模式/hungry_singleton.s"
+	@echo "... 设计模式/lazy_singleton.o"
+	@echo "... 设计模式/lazy_singleton.i"
+	@echo "... 设计模式/lazy_singleton.s"
 .PHONY : help
 
 

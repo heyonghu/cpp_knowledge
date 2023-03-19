@@ -71,6 +71,10 @@ all: CMakeFiles/test04.dir/all
 all: CMakeFiles/test05.dir/all
 all: CMakeFiles/sort.dir/all
 all: CMakeFiles/tree.dir/all
+all: CMakeFiles/hungry_singleton.dir/all
+all: CMakeFiles/lazy_singleton.dir/all
+all: CMakeFiles/Singleton.dir/all
+all: CMakeFiles/factory_model.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -86,6 +90,10 @@ clean: CMakeFiles/test04.dir/clean
 clean: CMakeFiles/test05.dir/clean
 clean: CMakeFiles/sort.dir/clean
 clean: CMakeFiles/tree.dir/clean
+clean: CMakeFiles/hungry_singleton.dir/clean
+clean: CMakeFiles/lazy_singleton.dir/clean
+clean: CMakeFiles/Singleton.dir/clean
+clean: CMakeFiles/factory_model.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -95,7 +103,7 @@ clean: CMakeFiles/tree.dir/clean
 CMakeFiles/cpp_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_test.dir/build.make CMakeFiles/cpp_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cpp_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target cpp_test"
 .PHONY : CMakeFiles/cpp_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -121,7 +129,7 @@ CMakeFiles/cpp_test.dir/clean:
 CMakeFiles/test01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test01.dir/build.make CMakeFiles/test01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target test01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target test01"
 .PHONY : CMakeFiles/test01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -147,7 +155,7 @@ CMakeFiles/test01.dir/clean:
 CMakeFiles/test02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test02.dir/build.make CMakeFiles/test02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test02.dir/build.make CMakeFiles/test02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target test02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target test02"
 .PHONY : CMakeFiles/test02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -173,7 +181,7 @@ CMakeFiles/test02.dir/clean:
 CMakeFiles/test03.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test03.dir/build.make CMakeFiles/test03.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test03.dir/build.make CMakeFiles/test03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target test03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target test03"
 .PHONY : CMakeFiles/test03.dir/all
 
 # Build rule for subdir invocation for target.
@@ -199,7 +207,7 @@ CMakeFiles/test03.dir/clean:
 CMakeFiles/test04.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test04.dir/build.make CMakeFiles/test04.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test04.dir/build.make CMakeFiles/test04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target test04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target test04"
 .PHONY : CMakeFiles/test04.dir/all
 
 # Build rule for subdir invocation for target.
@@ -225,7 +233,7 @@ CMakeFiles/test04.dir/clean:
 CMakeFiles/test05.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test05.dir/build.make CMakeFiles/test05.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test05.dir/build.make CMakeFiles/test05.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target test05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target test05"
 .PHONY : CMakeFiles/test05.dir/all
 
 # Build rule for subdir invocation for target.
@@ -251,7 +259,7 @@ CMakeFiles/test05.dir/clean:
 CMakeFiles/sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target sort"
 .PHONY : CMakeFiles/sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -277,7 +285,7 @@ CMakeFiles/sort.dir/clean:
 CMakeFiles/tree.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target tree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target tree"
 .PHONY : CMakeFiles/tree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -295,6 +303,110 @@ tree: CMakeFiles/tree.dir/rule
 CMakeFiles/tree.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/clean
 .PHONY : CMakeFiles/tree.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hungry_singleton.dir
+
+# All Build rule for target.
+CMakeFiles/hungry_singleton.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hungry_singleton.dir/build.make CMakeFiles/hungry_singleton.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hungry_singleton.dir/build.make CMakeFiles/hungry_singleton.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target hungry_singleton"
+.PHONY : CMakeFiles/hungry_singleton.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hungry_singleton.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hungry_singleton.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hungry_singleton.dir/rule
+
+# Convenience name for target.
+hungry_singleton: CMakeFiles/hungry_singleton.dir/rule
+.PHONY : hungry_singleton
+
+# clean rule for target.
+CMakeFiles/hungry_singleton.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hungry_singleton.dir/build.make CMakeFiles/hungry_singleton.dir/clean
+.PHONY : CMakeFiles/hungry_singleton.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lazy_singleton.dir
+
+# All Build rule for target.
+CMakeFiles/lazy_singleton.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lazy_singleton.dir/build.make CMakeFiles/lazy_singleton.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lazy_singleton.dir/build.make CMakeFiles/lazy_singleton.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target lazy_singleton"
+.PHONY : CMakeFiles/lazy_singleton.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lazy_singleton.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lazy_singleton.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/lazy_singleton.dir/rule
+
+# Convenience name for target.
+lazy_singleton: CMakeFiles/lazy_singleton.dir/rule
+.PHONY : lazy_singleton
+
+# clean rule for target.
+CMakeFiles/lazy_singleton.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lazy_singleton.dir/build.make CMakeFiles/lazy_singleton.dir/clean
+.PHONY : CMakeFiles/lazy_singleton.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Singleton.dir
+
+# All Build rule for target.
+CMakeFiles/Singleton.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Singleton"
+.PHONY : CMakeFiles/Singleton.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Singleton.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Singleton.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Singleton.dir/rule
+
+# Convenience name for target.
+Singleton: CMakeFiles/Singleton.dir/rule
+.PHONY : Singleton
+
+# clean rule for target.
+CMakeFiles/Singleton.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/clean
+.PHONY : CMakeFiles/Singleton.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/factory_model.dir
+
+# All Build rule for target.
+CMakeFiles/factory_model.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/factory_model.dir/build.make CMakeFiles/factory_model.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/factory_model.dir/build.make CMakeFiles/factory_model.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target factory_model"
+.PHONY : CMakeFiles/factory_model.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/factory_model.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/factory_model.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data_yonghu/cpp_enev/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/factory_model.dir/rule
+
+# Convenience name for target.
+factory_model: CMakeFiles/factory_model.dir/rule
+.PHONY : factory_model
+
+# clean rule for target.
+CMakeFiles/factory_model.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/factory_model.dir/build.make CMakeFiles/factory_model.dir/clean
+.PHONY : CMakeFiles/factory_model.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
